@@ -22,7 +22,7 @@ native-image-installable-svm-java17-windows-amd64-22.3.0.jar：是一种将 Java
 
 与 JDK 类似，在 path 中 编辑安装路径的 bin 目录，再到命令行输入 java - version 即可显示我们安装的 graalvm-ce(如果没有显示可以输入 gu 命令，出现反馈及安装成功)
 
-![]([raw.githubusercontent.com](https://raw.githubusercontent.com/Judy-emperor/zang-copy/main/Springboot3.0打包成exe/img/屏幕截图 2023-03-02 153957.img.png))
+![屏幕截图 2023-03-02 153957.img](/../assets/屏幕截图 2023-03-02 153957.img.png)
 
 **native-image-installable-svm-java17-windows-amd64-22.3.0.jar**
 
