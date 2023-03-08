@@ -22,7 +22,7 @@ native-image-installable-svm-java17-windows-amd64-22.3.0.jar：是一种将 Java
 
 与 JDK 类似，在 path 中 编辑安装路径的 bin 目录，再到命令行输入 java - version 即可显示我们安装的 graalvm-ce(如果没有显示可以输入 gu 命令，出现反馈及安装成功)
 
-![001](./assets/001.png)
+![](/../assets/001.png)
 
 **native-image-installable-svm-java17-windows-amd64-22.3.0.jar**
 
@@ -37,10 +37,10 @@ gu install -L native-image
 
 二、创建 Springboot 3.0 项目，编写代码，导入 lib（Springboot3.0 可以通过Spring Initializr创建，也可通过 Eclipse 创建，但注意需要导入**GraalVM Native Support**插件 ）
 
-![002](/../assets/002.png)
+![](/../assets/002.png)
 
 三、将完成的项目导入VS 中，打开x64 Native Tools Command Prompt for VS 2022，cd 到项目目录下，输入 *mvn* -Pnative native:compile 即可打包完成
 
-![003](/../assets/003.png)
+![](/../assets/003.png)
 
-![004](/../assets/004.png)
+![](/../assets/004.png)
