@@ -37,10 +37,10 @@ gu install -L native-image
 
 二、创建 Springboot 3.0 项目，编写代码，导入 lib（Springboot3.0 可以通过Spring Initializr创建，也可通过 Eclipse 创建，但注意需要导入**GraalVM Native Support**插件 ）
 
-![创建springboot3.0项目](/../assets/创建springboot3.0项目.png)
+![002](/../assets/002.png)
 
 三、将完成的项目导入VS 中，打开x64 Native Tools Command Prompt for VS 2022，cd 到项目目录下，输入 *mvn* -Pnative native:compile 即可打包完成
 
-![打开x64](/../assets/打开x64.png)
+![003](/../assets/003.png)
 
-![输入](/../assets/输入.png)
+![004](/../assets/004.png)
