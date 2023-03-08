@@ -37,22 +37,22 @@ gu install -L native-image
 
 二、创建 Springboot 3.0 项目，编写代码，导入 lib（Springboot3.0 可以通过Spring Initializr创建，也可通过 Eclipse 创建，但注意需要导入**GraalVM Native Support**插件 ）
 
-![](/../assets/002.png)
+![002](./assets/002.png)
 
 三、将项目导入到Ecilpse中，右击项目->maven->update project->
 
-![](/../assets/005.png)
+![003](./assets/005.png)
 
 注意 JDK 的版本与 maven 版本(jdk要1.7或1.7以上，且要与下载的graalvm-ce-java17-22.3.0版本对应，maven 需要3.85以上,可能你的maven usersettings默认是你本地仓库的settings，也需要更改)
 
-![](/../assets/006.png)
+![004](./assets/006.png)
 
-![](/../assets/007.png)
+![005](./assets/007.png)
 
 四、将完成的项目导入VS 中，打开x64 Native Tools Command Prompt for VS 2022，cd 到项目目录下，输入 *mvn* -Pnative native:compile 即可打包完成
 
-![](/../assets/003.png)
+![006](./assets/003.png)
 
-![](/../assets/004.png)
+![007](./assets/004.png)
 
 五，打包完成后，点开项目的target目录，即可看到项目名.exe
